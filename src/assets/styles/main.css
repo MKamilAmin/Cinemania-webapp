@@ -1,0 +1,27 @@
+/* Base styles */
+/* @import "./base/reset.css";
+@import "./base/typography.css";
+@import "./base/global.css"; */
+
+/* Utilities */
+/* @import "./utils/variables.css";
+@import "./utils/mixins.css";
+@import "./utils/animations.css"; */
+
+/* Layout */
+/* @import "./layout/header.css";
+@import "./layout/footer.css";
+@import "./layout/grid.css"; */
+/* @import "./layout/_container.css"; */
+
+/* Components */
+/* @import "./components/movieCard.css";
+@import "./components/button.css";
+@import "./components/form.css";
+@import "./components/modal.css"; */
+
+/* Page-specific styles */
+/* @import "./pages/home.css";
+@import "./pages/catalogue.css";
+@import "./pages/library.css";
+@import "./pages/auth.css"; */
