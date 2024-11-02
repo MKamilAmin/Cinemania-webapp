@@ -2181,3 +2181,27 @@ p {
         flex-wrap: nowrap;
     }
 }
+
+@media (width < 768px) {
+    .container {
+        max-width: 320px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (width >= 768px) and (width < 1280px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+}
+
+@media (width >= 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+}

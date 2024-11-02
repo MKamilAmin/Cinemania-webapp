@@ -1,6 +1,6 @@
 /* Base styles */
-/* @import "./base/reset.css";
-@import "./base/typography.css";
+@import "./base/_reset.css";
+/* @import "./base/typography.css";
 @import "./base/global.css"; */
 
 /* Utilities */
