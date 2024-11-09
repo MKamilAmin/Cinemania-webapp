@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+
+        <symbol id="mobile-menu-home" viewBox="0 0 32 32">
+            <path d="M4 18.667h2.667V28c0 .736.597 1.333 1.333 1.333h16c.736 0 1.333-.597 1.333-1.333v-9.333H28.001c.539 0 1.004-.321 1.213-.782l.003-.008a1.323 1.323 0 0 0-.228-1.435l.001.001-12-13.333c-.505-.563-1.476-.563-1.981 0l-12 13.333A1.333 1.333 0 0 0 4 18.668zm7.537-3.146c.535-.529 1.271-.855 2.083-.855s1.548.326 2.084.855l.299.293.297-.293c.535-.529 1.272-.855 2.084-.855s1.549.327 2.084.856c.537.517.871 1.243.871 2.047s-.334 1.529-.87 2.046l-.001.001-4.465 4.385-4.465-4.385c-.537-.517-.871-1.243-.871-2.047s.334-1.529.87-2.046l.001-.001z"/>
+        </symbol>
+        
+        <symbol id="mobile-menu-catalog" viewBox="0 0 32 32">
+            <path d="M25.333 5.333v1.333h-2.667V3.999H9.333v2.667H6.666V3.999H3.999v24h2.667v-2.667h2.667v2.667h13.333v-2.667h2.667v2.667H28v-24h-2.667v1.333zm-18.666 4h2.667V12H6.667V9.333zm0 5.334h2.667v2.667H6.667v-2.667zm0 8V20h2.667v2.667H6.667zm16 0V20h2.667v2.667h-2.667zm2.666-5.334h-2.667v-2.667h2.667v2.667zM22.667 12V9.333h2.667V12h-2.667z"/>
+        </symbol>
+        
+        <symbol id="mobile-menu-library" viewBox="0 0 32 32">
+            <path d="M9.333 4H12v24H9.333zm-4 0H8v24H5.333zm8 0H16v24h-2.667zm12.083 23.723-8.297-22.52 2.503-.923 8.297 22.52z"/>
+        </symbol>
+
+        <symbol id="theme-switcher-moon" viewBox="0 0 32 32">
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round"
+            stroke-miterlimit="4" stroke-width="2.1333"
+            d="M2.189 16.585c0.515 7.14 6.772 12.948 14.261 13.267 5.283 0.222 10.008-2.163 12.843-5.92 1.174-1.539 0.544-2.565-1.417-2.218-0.959 0.166-1.947 0.236-2.978 0.194-7.002-0.277-12.729-5.947-12.757-12.643-0.014-1.802 0.372-3.507 1.074-5.060 0.773-1.719-0.157-2.537-1.947-1.802-5.67 2.315-9.55 7.847-9.078 14.182z">
+            </path>
+        </symbol>
+
+        <symbol id="theme-switcher-sun" viewBox="0 0 35 32">
+            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.56" d="M18.353 25.16c5.209 0 9.432-4.103 9.432-9.164s-4.223-9.164-9.432-9.164c-5.209 0-9.432 4.103-9.432 9.164s4.223 9.164 9.432 9.164z" style="stroke:var(--color1, #fff)"/>
+            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2" d="m28.747 5.909.193-.187M7.776 26.285l.193-.187m10.389-24.38v-.115m0 28.8v-.115M3.655 16.003h-.119m29.643 0h-.119M7.968 5.909l-.193-.187M28.94 26.285l-.193-.187" style="stroke:var(--color1, #fff)"/>
+        </symbol>
+
+    </defs>
+</svg>

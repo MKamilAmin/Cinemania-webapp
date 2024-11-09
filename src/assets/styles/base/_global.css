@@ -1,0 +1,14 @@
+:focus {
+    outline: none;
+}
+
+:focus-visible,
+a:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px #ffc226, 0 0 0 2px rgb(255, 255, 255);
+    transition: box-shadow 0.08s ease;
+}
+
+a:focus-visible {
+    border-radius: 6px;
+}

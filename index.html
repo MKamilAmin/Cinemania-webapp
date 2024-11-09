@@ -23,99 +23,198 @@
 
     <body>
         <header class="header">
-            <div class="container header__container">
-                <a href="index.html">
-                    <div class="container__logo" id="logo">
-                        <img
-                            class="logo-img"
-                            src="./src/assets/images/temporary/logo-2x.png"
-                            alt="logo"
+            <a href="index.html" aria-label="Home page">
+                <div class="header__logo-container">
+                    <picture>
+                        <source
+                            srcset="
+                                ./src/assets/images/desktop/logo-1x.webp  1x,
+                                ./src/assets/images/desktop/logo-15x.webp 1.5x,
+                                ./src/assets/images/desktop/logo-2x.webp  2x,
+                                ./src/assets/images/desktop/logo-3x.webp  3x
+                            "
+                            media="(min-width: 768px)"
+                            width="48"
+                            height="48"
                         />
-
-                        <div class="logo-text">Cinemania</div>
-                    </div>
-                </a>
-
-                <nav id="navi" class="header__nav">
-                    <ul class="header__nav-list">
-                        <li class="header__nav-item">
-                            <a
-                                href="index.html"
-                                id="header-link"
-                                class="header__nav-link current__nav-link"
-                                >HOME</a
-                            >
-                        </li>
-                        <li class="header__nav-item">
-                            <a
-                                href="./src/pages/catalogue.html"
-                                id="header-link"
-                                class="header__nav-link"
-                                >CATALOG</a
-                            >
-                        </li>
-                        <li class="header__nav-item">
-                            <a
-                                href="./src/pages/library.html"
-                                id="header-link"
-                                class="header__nav-link"
-                                >MY LIBRARY</a
-                            >
-                        </li>
-                    </ul>
-
-                    <div class="mobile-menu">
-                        <a href="./index.html" class="header__logo link">
-                            <img
-                                class="logo-img"
-                                src="./src/assets/images/temporary/logo-2x.png"
-                                alt="logo"
-                            />
-                        </a>
-                        <ul class="mobile-menu__list">
-                            <li class="mobile-menu__item">
-                                <a
-                                    href="./index.html"
-                                    id="mobile-link"
-                                    class="mobile-menu__link current__nav-link"
-                                    >HOME</a
-                                >
-                            </li>
-                            <li class="mobile-menu__item">
-                                <a
-                                    href="./src/pages/catalogue.html"
-                                    id="mobile-link"
-                                    class="mobile-menu__link"
-                                    >CATALOG</a
-                                >
-                            </li>
-                            <li class="mobile-menu__item">
-                                <a
-                                    href="./src/pages/library.html"
-                                    id="mobile-link"
-                                    class="mobile-menu__link"
-                                    >MY LIBRARY</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <button id="menu">MENU</button>
-                <div id="switch" class="switcher">
-                    <span class="switcher__ball" width="18" height="18"></span>
-                    <div class="switch-icon">
-                        <svg width="14" height="14" class="header__icon-moon">
-                            <use href="./sprite.1406a937.svg#icon-moon"></use>
-                        </svg>
-                    </div>
-                    <div class="switch-icon">
-                        <svg width="14" height="14" class="header__icon-sun">
-                            <use href="/sprite.1406a937.svg#icon-sun"></use>
-                        </svg>
-                    </div>
+                        <source
+                            srcset="
+                                ./src/assets/images/mobile/logo-1x.webp  1x,
+                                ./src/assets/images/mobile/logo-15x.webp 1.5x,
+                                ./src/assets/images/mobile/logo-2x.webp  2x,
+                                ./src/assets/images/mobile/logo-3x.webp  3x
+                            "
+                            width="32"
+                            height="32"
+                        />
+                        <img
+                            class="header__logo-img"
+                            src="./src/assets/images/mobile/logo-2x.webp"
+                            alt="logo"
+                            width="32"
+                            height="32"
+                        />
+                    </picture>
+                    <span class="header__logo-text">Cinemania</span>
                 </div>
-            </div>
-            <div id="overlay"></div>
+            </a>
+
+            <nav id="navi" class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a
+                            href="index.html"
+                            id="header-link"
+                            class="header__nav-link current__nav-link"
+                            >HOME</a
+                        >
+                    </li>
+                    <li class="header__nav-item">
+                        <a
+                            href="./src/pages/catalogue.html"
+                            id="header-link"
+                            class="header__nav-link"
+                            >CATALOG</a
+                        >
+                    </li>
+                    <li class="header__nav-item">
+                        <a
+                            href="./src/pages/library.html"
+                            id="header-link"
+                            class="header__nav-link"
+                            >MY LIBRARY</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+
+            <div
+                class="header__mobile-menu-backdrop js-header__mobile-menu-backdrop"
+            ></div>
+
+            <nav
+                id="mobile-menu"
+                class="header__mobile-menu js-header__mobile-menu"
+                aria-hidden="true"
+            >
+                <a
+                    href="./index.html"
+                    class="header__mobile-menu-logo"
+                    aria-label="Link to home page"
+                    tabindex="-1"
+                >
+                    <img
+                        srcset="
+                            ./src/assets/images/mobile/logo-1x.webp  1x,
+                            ./src/assets/images/mobile/logo-15x.webp 1.5x,
+                            ./src/assets/images/mobile/logo-2x.webp  2x,
+                            ./src/assets/images/mobile/logo-3x.webp  3x
+                        "
+                        alt="logo"
+                        width="32"
+                        height="32"
+                    />
+                </a>
+                <menu class="header__mobile-menu-list">
+                    <li>
+                        <a
+                            href="./index.html"
+                            class="header__mobile-menu-link current__nav-link js-header__mobile-menu-link"
+                            tabindex="-1"
+                        >
+                            <svg
+                                class="header__mobile-menu-link-icon"
+                                width="16"
+                                height="16"
+                            >
+                                <use
+                                    href="./src/assets/images/sprite.svg#mobile-menu-home"
+                                ></use>
+                            </svg>
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="./index.html"
+                            class="header__mobile-menu-link js-header__mobile-menu-link"
+                            tabindex="-1"
+                        >
+                            <svg
+                                class="header__mobile-menu-link-icon"
+                                width="16"
+                                height="16"
+                            >
+                                <use
+                                    href="./src/assets/images/sprite.svg#mobile-menu-catalog"
+                                ></use>
+                            </svg>
+                            <span>CATALOG</span></a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="./index.html"
+                            class="header__mobile-menu-link js-header__mobile-menu-link"
+                            tabindex="-1"
+                        >
+                            <svg
+                                class="header__mobile-menu-link-icon"
+                                width="16"
+                                height="16"
+                            >
+                                <use
+                                    href="./src/assets/images/sprite.svg#mobile-menu-library"
+                                ></use>
+                            </svg>
+                            <span>LIBRARY</span></a
+                        >
+                    </li>
+                </menu>
+            </nav>
+
+            <button
+                class="header__mobile-menu-toggle js-header__mobile-menu-toggle"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+                MENU
+            </button>
+
+            <button
+                class="header__theme-switcher js-header__theme-switcher"
+                type="button"
+                aria-label="Toggle between light and dark theme"
+            >
+                <span
+                    class="header__theme-switcher-thumb js-header__theme-switcher-thumb"
+                    ><div class="thumb-arc"></div
+                ></span>
+
+                <svg
+                    width="12"
+                    height="12"
+                    class="header__theme-switcher-icon"
+                    aria-hidden="true"
+                >
+                    <use
+                        href="./src/assets/images/sprite.svg#theme-switcher-moon"
+                    ></use>
+                </svg>
+
+                <svg
+                    width="12"
+                    height="12"
+                    class="header__theme-switcher-icon"
+                    aria-hidden="true"
+                >
+                    <use
+                        href="./src/assets/images/sprite.svg#theme-switcher-sun"
+                    ></use>
+                </svg>
+            </button>
         </header>
 
         <main>
