@@ -502,57 +502,8 @@ body.light .footer__link:hover {
     position: relative;
 }
 
-.header__nav-list {
-    display: none;
-}
-@media screen and (min-width: 768px) {
-    .header__nav-list {
-        display: flex;
-        gap: 32px;
-    }
-}
-@media screen and (min-width: 1280px) {
-    .header__nav-list {
-        gap: 40px;
-    }
-}
-.header__nav-link {
-    color: #b7b7b7;
-    display: block;
-    text-align: center;
-}
-@media screen and (min-width: 768px) {
-    .header__nav-link {
-        padding: 22px 0;
-    }
-}
 .current__nav-link {
     color: #f87719;
-}
-@media (min-width: 768px) {
-    .header__nav {
-        margin-right: 120px;
-        margin-left: 59px;
-    }
-}
-@media (max-width: 767px) {
-    .header__nav {
-        position: absolute;
-        top: 0;
-        left: 0%;
-        width: 64%;
-        height: 100vh;
-        z-index: 10;
-        transition: left 0.3s ease-in-out;
-        background-color: #171717;
-        border-radius: 0px 8px 8px 0px;
-    }
-}
-
-@media (max-width: 767px) {
-    .header__nav {
-        background-color: black;
-    }
 }
 
 #menu-button {
