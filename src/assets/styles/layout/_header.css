@@ -110,7 +110,7 @@ body.menu-open {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(155deg, #ffc226 5%, #f84119 92%);
+    background-image: var(--primary-gradient);
 
     cursor: pointer;
     position: relative;
@@ -132,14 +132,14 @@ body.menu-open {
 }
 
 .thumb-arc {
-    --b: 1px; /* the border thickness */
+    --b: 1.2px; /* the border thickness */
     --a: 90deg; /* control the progression */
 
     width: 13px;
     aspect-ratio: 1;
     padding: var(--b);
     border-radius: 50%;
-    background-image: linear-gradient(155deg, #ffc226 5%, #f84119 92%);
+    background-image: var(--primary-gradient);
     transform: rotate(45deg);
     --_g: /var(--b) var(--b) no-repeat radial-gradient(50% 50%, #000 97%, #0000);
     mask: top var(--_g),

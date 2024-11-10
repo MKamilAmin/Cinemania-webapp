@@ -7,16 +7,6 @@
     --secondary-text-grey: #f8f8f8;
     --secondary-black-grey: #282828;
     --grey-white-theme: #595959;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: var(--white);
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
 }
 .btn {
     font-family: inherit;
@@ -502,10 +492,6 @@ body.light .footer__link:hover {
     position: relative;
 }
 
-.current__nav-link {
-    color: #f87719;
-}
-
 #menu-button {
     color: #595959;
 }
@@ -807,9 +793,6 @@ body.light .header__nav-link {
 }
 body.light .header__nav-link:hover,
 body.light .header__nav-link:focus {
-    color: #f87719;
-}
-body.light .current__nav-link {
     color: #f87719;
 }
 body.light .catalog__form-input {
@@ -1694,39 +1677,7 @@ body.light .upcoming-box {
 .library-btn a {
     color: inherit;
 }
-/* import modern-normalize */
-/* font import */
-header,
-footer,
-body,
-span,
-div,
-nav,
-svg,
-img,
-ul,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-p {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-}
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 #back-to-top {
     position: fixed;
     right: 20px;

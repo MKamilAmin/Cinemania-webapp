@@ -5,8 +5,8 @@
 @import "./base/_global.css";
 
 /* Utilities */
-/* @import "./utils/variables.css";
-@import "./utils/mixins.css"; */
+@import "./utils/_variables.css";
+/* @import "./utils/mixins.css"; */
 /* TODO: Correct transitions and animations */
 @import "./utils/_animations.css";
 
