@@ -7,6 +7,8 @@
     /* Colors */
     --primary-gradient: linear-gradient(145deg, #ffc226 0%, #f84119 100%);
     --color-current: #f87719;
+    --color-gradient-btn: #111111;
+    --color-gradient-btn-hover: #f87719;
 
     --color-main: #f8f8f8;
     --color-titles: #ffffff;

@@ -12,6 +12,7 @@
 
 /* Layout */
 @import "./layout/_header.css";
+@import "./layout/_hero.css";
 /* @import "./layout/footer.css";
 @import "./layout/grid.css";
 @import "./layout/_container.css"; */
