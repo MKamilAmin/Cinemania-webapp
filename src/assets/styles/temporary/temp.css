@@ -1094,40 +1094,7 @@ body.light .upcoming-box {
     visibility: hidden;
     pointer-events: none;
 }
-.movielist__nav-trends-box {
-    padding-bottom: 28px;
-    display: flex;
-    justify-content: space-between;
-}
-.movielist__nav-item-link {
-    color: var(--orange);
-}
-.movielist__nav-item-link,
-.movielist__nav-trends-title {
-    font-weight: 500;
-    font-size: 16px;
-}
-@media (min-width: 768px) {
-    .movielist__nav-item-link,
-    .movielist__nav-trends-title {
-        font-size: 24px;
-    }
-}
-@media (min-width: 1280px) {
-    .movielist__nav-item-link,
-    .movielist__nav-trends-title {
-        font-size: 28px;
-    }
-}
-.movielist__nav-trends-title {
-    text-transform: uppercase;
-    color: var(--white);
-}
-.movielist__movie-card-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-}
+
 .movielist-item {
     width: 280px;
     height: 406px;

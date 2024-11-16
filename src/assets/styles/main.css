@@ -1,21 +1,19 @@
 /* Base styles */
 @import "./base/_reset.css";
-/* TODO: Correct all the typography styles */
 @import "./base/_typography.css";
 @import "./base/_global.css";
 
 /* Utilities */
 @import "./utils/_variables.css";
 /* @import "./utils/mixins.css"; */
-/* TODO: Correct transitions and animations */
 @import "./utils/_animations.css";
 
 /* Layout */
 @import "./layout/_header.css";
 @import "./layout/_hero.css";
+@import "./layout/_trending.css";
 /* @import "./layout/footer.css";
-@import "./layout/grid.css";
-@import "./layout/_container.css"; */
+@import "./layout/grid.css"; */
 
 /* Components */
 /* @import "./components/movieCard.css";

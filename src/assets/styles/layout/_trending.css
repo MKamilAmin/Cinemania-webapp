@@ -1,0 +1,32 @@
+.trending {
+    margin-bottom: 32px;
+}
+
+.trending__title-wrapper {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending__cards-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px 16px;
+}
+
+@media (width >= 768px) {
+    .trending {
+        margin-bottom: 44px;
+    }
+}
+
+@media (width >= 1280px) {
+    .trending {
+        margin-bottom: 60px;
+    }
+
+    .trending__title-wrapper {
+        margin-bottom: 28px;
+    }
+}

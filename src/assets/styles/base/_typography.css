@@ -111,3 +111,33 @@
         font-size: 1rem;
     }
 }
+
+/* Trending section */
+
+.trending__title {
+    font-weight: var(--font-medium);
+    font-size: clamp(
+        1rem,
+        calc(1rem + 8 * ((100vw - 320px) / (768 - 320))),
+        1.5rem
+    );
+    text-transform: uppercase;
+    color: var(--color-titles);
+}
+
+.trending__title-link {
+    font-weight: var(--font-medium);
+    font-size: clamp(
+        1rem,
+        calc(1rem + 8 * ((100vw - 320px) / (768 - 320))),
+        1.5rem
+    );
+    color: var(--color-current);
+}
+
+@media (width >= 1280px) {
+    .trending__title,
+    .trending__title-link {
+        font-size: 1.75rem;
+    }
+}
