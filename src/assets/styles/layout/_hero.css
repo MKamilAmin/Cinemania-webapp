@@ -153,7 +153,10 @@
     }
 
     .hero__description {
-        max-width: calc(295px + (367 - 295) * ((100vw - 768px) / (1280 - 768)));
+        max-width: min(
+            412px,
+            calc(295px + (367 - 295) * ((100vw - 768px) / (1280 - 768)))
+        );
         margin-bottom: 28px;
     }
 
@@ -167,7 +170,7 @@
 @media (width > 1050px) {
     .hero__background-img {
         right: 0;
-        max-width: 65vw;
+        max-width: min(65vw, 1690px);
         object-fit: cover;
         transform: translateX(0);
     }

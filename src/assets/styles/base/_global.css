@@ -14,6 +14,12 @@ body {
     }
 }
 
+@media (width >= 2600px) {
+    .container {
+        max-width: 2600px;
+    }
+}
+
 /* responsive-size: calc(min-size + (max-size - min-size) * ((100vw - min-viewport) / (max-viewport - min-viewport))); */
 
 /* Tab outline */
