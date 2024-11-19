@@ -19,6 +19,16 @@
     .trending {
         margin-bottom: 44px;
     }
+
+    .trending__cards-list li:last-child {
+        display: none;
+    }
+}
+
+@media (width >= 1010px) {
+    .trending__cards-list li:last-child {
+        display: block;
+    }
 }
 
 @media (width >= 1280px) {
@@ -28,5 +38,15 @@
 
     .trending__title-wrapper {
         margin-bottom: 28px;
+    }
+
+    .trending__cards-list li:last-child {
+        display: none;
+    }
+}
+
+@media (width >= 1690px) {
+    .trending__cards-list li:last-child {
+        display: block;
     }
 }
