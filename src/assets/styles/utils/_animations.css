@@ -33,6 +33,18 @@
     color: black;
 }
 
+/* Upcoming section */
+.upcoming__add-btn {
+    transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.upcoming__add-btn:active:hover,
+.upcoming__add-btn:active:focus {
+    transform: scale(1);
+    transition: none;
+    color: black;
+}
+
 @media (prefers-reduced-motion: reduce) {
     .header__theme-switcher-thumb,
     .header__mobile-menu,
@@ -40,7 +52,8 @@
     .header__mobile-menu-toggle,
     .header__mobile-menu-link,
     .hero__btn-trailer,
-    .hero__btn-details {
+    .hero__btn-details,
+    .upcoming__add-btn {
         transition: none;
     }
 }
