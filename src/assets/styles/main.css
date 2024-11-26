@@ -13,8 +13,8 @@
 @import "./layout/_hero.css";
 @import "./layout/_trending.css";
 @import "./layout/_upcoming.css";
-/* @import "./layout/footer.css";
-@import "./layout/grid.css"; */
+@import "./layout/_footer.css";
+/* @import "./layout/grid.css"; */
 
 /* Components */
 /* @import "./components/movieCard.css";

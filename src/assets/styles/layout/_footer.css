@@ -1,0 +1,22 @@
+.footer {
+    margin-bottom: 28px;
+}
+
+.footer__heart {
+    margin: 0 8px;
+}
+
+.footer__link {
+    cursor: pointer;
+}
+
+@media (width >= 768px) {
+    .footer {
+        margin-bottom: 40px;
+    }
+}
+@media (width >= 1280px) {
+    .footer {
+        margin-bottom: 80px;
+    }
+}
