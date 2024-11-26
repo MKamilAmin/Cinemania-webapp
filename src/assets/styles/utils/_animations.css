@@ -45,6 +45,20 @@
     color: black;
 }
 
+/* Footer section */
+.footer__heart {
+    animation: Scale 0.7s ease infinite alternate;
+}
+
+.footer__link {
+    transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__link:hover,
+.footer__link:focus {
+    color: var(--color-current);
+}
+
 @media (prefers-reduced-motion: reduce) {
     .header__theme-switcher-thumb,
     .header__mobile-menu,
@@ -53,7 +67,10 @@
     .header__mobile-menu-link,
     .hero__btn-trailer,
     .hero__btn-details,
-    .upcoming__add-btn {
+    .upcoming__add-btn,
+    .footer__heart,
+    .footer__link {
         transition: none;
+        animation: none;
     }
 }

@@ -232,3 +232,27 @@
         font-size: 2rem;
     }
 }
+
+/* Footer section */
+.footer__text {
+    font-weight: var(--font-regular);
+    font-size: 0.875rem;
+    color: #b7b7b7;
+    line-height: 1.57;
+
+    white-space: nowrap;
+    text-align: center;
+}
+.footer__text .breakable {
+    white-space: normal;
+}
+
+.footer__link {
+    text-decoration: underline;
+}
+
+@media (width >= 768px) {
+    .footer__text {
+        font-size: 1rem;
+    }
+}
