@@ -29,5 +29,55 @@
             <path fill="#f87719" d="m17.231 31.705-2.412-2.412C5.859 21.367.001 16.025.001 9.478.001 4.136 4.136.001 9.478.001c2.929 0 5.858 1.378 7.754 3.618 1.895-2.24 4.825-3.618 7.754-3.618 5.342 0 9.477 4.135 9.477 9.477 0 6.548-5.858 11.889-14.818 19.815l-2.412 2.412z" style="fill:var(--color1, #f87719)"/>
         </symbol>
 
+        <symbol id="star-full" fill="none" viewBox="0 0 14 14">
+            <g clip-path="url(#clip0_148_11590)">
+                <path fill="url(#paint0_linear_148_11590)" d="M10.772 13.125a.437.437 0 0 1-.257-.082L7 10.493l-3.517 2.55a.437.437 0 0 1-.671-.494l1.371-4.063L.628 6.048a.438.438 0 0 1 .246-.798h4.385l1.324-4.073a.438.438 0 0 1 .832 0l1.323 4.074h4.386a.437.437 0 0 1 .247.799L9.815 8.486l1.371 4.061a.437.437 0 0 1-.414.578Z"/>
+            </g>
+            <defs>
+                <linearGradient id="paint0_linear_148_11590" x1="2.041" x2="10.79" y1="1.75" y2="13.417" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F84119"/>
+                    <stop offset="1" stop-color="#F89F19" stop-opacity=".68"/>
+                </linearGradient>
+                <clipPath id="clip0_148_11590">
+                    <path fill="#fff" d="M0 0h14v14H0z"/>
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="star-half" fill="none" viewBox="0 0 14 14">
+            <g clip-path="url(#clip0_148_11592)">
+                <path stroke="url(#paint0_linear_148_11592)" stroke-linejoin="round" d="M13.125 5.688H8.422L7 1.313 5.578 5.688H.875l3.828 2.625-1.476 4.374L7 9.954l3.773 2.735-1.476-4.376 3.828-2.624Z"/>
+                <path fill="url(#paint1_linear_148_11592)" d="M7 1.313v8.64l-3.773 2.735 1.476-4.376L.875 5.688h4.703L7 1.313Z"/>
+            </g>
+            <defs>
+                <linearGradient id="paint0_linear_148_11592" x1="2.371" x2="10.483" y1="2.125" y2="12.999" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F84119"/>
+                    <stop offset="1" stop-color="#F89F19" stop-opacity=".68"/>
+                </linearGradient>
+                <linearGradient id="paint1_linear_148_11592" x1="1.623" x2="9.45" y1="2.125" y2="7.371" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F84119"/>
+                    <stop offset="1" stop-color="#F89F19" stop-opacity=".68"/>
+                </linearGradient>
+                <clipPath id="clip0_148_11592">
+                    <path fill="#fff" d="M0 0h14v14H0z"/>
+                </clipPath>
+            </defs>
+        </symbol>
+
+        <symbol id="star-empty" fill="none" viewBox="0 0 14 14">
+            <g clip-path="url(#clip0_148_11595)">
+                <path stroke="url(#paint0_linear_148_11595)" stroke-linejoin="round" d="M13.125 5.688H8.422L7 1.313 5.578 5.688H.875l3.828 2.625-1.476 4.374L7 9.954l3.773 2.735-1.476-4.376 3.828-2.624Z"/>
+            </g>
+            <defs>
+                <linearGradient id="paint0_linear_148_11595" x1="2.371" x2="10.483" y1="2.125" y2="12.999" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F84119"/>
+                    <stop offset="1" stop-color="#F89F19" stop-opacity=".68"/>
+                </linearGradient>
+                <clipPath id="clip0_148_11595">
+                    <path fill="#fff" d="M0 0h14v14H0z"/>
+                </clipPath>
+            </defs>
+        </symbol>
+
     </defs>
 </svg>

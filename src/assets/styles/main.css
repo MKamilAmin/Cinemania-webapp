@@ -17,8 +17,8 @@
 /* @import "./layout/grid.css"; */
 
 /* Components */
-/* @import "./components/movieCard.css";
-@import "./components/button.css";
+@import "./components/_cards.css";
+/* @import "./components/button.css";
 @import "./components/form.css";
 @import "./components/modal.css"; */
 

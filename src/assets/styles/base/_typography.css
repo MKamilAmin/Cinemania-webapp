@@ -256,3 +256,25 @@
         font-size: 1rem;
     }
 }
+
+/* Cards */
+.card__movie-title {
+    font-weight: var(--font-medium);
+    font-size: 0.75rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.33;
+}
+
+.card__movie-info {
+    font-weight: var(--font-medium);
+    font-size: 0.75rem;
+    color: #b7b7b7;
+}
+
+@media (width >= 1280px) {
+    .card__movie-title,
+    .card__movie-info {
+        font-size: 1.25rem;
+    }
+}
