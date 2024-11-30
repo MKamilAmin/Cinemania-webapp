@@ -36,7 +36,7 @@
     margin-bottom: 12px;
 }
 
-.hero__stars-list {
+.hero__movie-rating {
     display: flex;
     gap: 4px;
     margin-bottom: 16px;
@@ -147,7 +147,7 @@
         max-width: min(772px, 60vw);
     }
 
-    .hero__stars-list {
+    .hero__movie-rating {
         margin-bottom: 20px;
     }
 
