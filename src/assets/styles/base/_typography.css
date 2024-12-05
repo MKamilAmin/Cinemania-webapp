@@ -297,3 +297,10 @@
 .catalog__pagination-btn.current {
     color: var(--color-main);
 }
+
+@media (width >= 768px) {
+    .catalog__pagination-btn,
+    .catalog__paginated-dots {
+        font-size: 0.875rem;
+    }
+}
