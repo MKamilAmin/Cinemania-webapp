@@ -278,3 +278,22 @@
         font-size: 1.25rem;
     }
 }
+
+/* Catalog page */
+.catalog-search__input,
+.catalog-search__input::placeholder {
+    font-weight: var(--font-medium);
+    font-size: 14px;
+    color: var(--color-menu);
+}
+
+.catalog__pagination-btn,
+.catalog__paginated-dots {
+    font-weight: var(--font-regular);
+    font-size: 0.625rem;
+    color: var(--color-menu);
+}
+
+.catalog__pagination-btn.current {
+    color: var(--color-main);
+}

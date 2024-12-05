@@ -1516,7 +1516,9 @@
                 <nav aria-label="Search results page selection">
                     <ul class="catalog__pagination-list">
                         <li>
-                            <button class="catalog__pagination-btn">
+                            <button
+                                class="catalog__pagination-btn catalog__pagination-btn--arrow"
+                            >
                                 <svg
                                     class="catalog__pagination-prev-icon"
                                     aria-hidden="true"
@@ -1530,7 +1532,9 @@
                             </button>
                         </li>
                         <li>
-                            <button class="catalog__pagination-btn">1</button>
+                            <button class="catalog__pagination-btn current">
+                                1
+                            </button>
                         </li>
                         <li>
                             <button class="catalog__pagination-btn">2</button>
@@ -1538,16 +1542,22 @@
                         <li>
                             <button class="catalog__pagination-btn">3</button>
                         </li>
-                        <li>
-                            <span class="" aria-hidden="true">...</span>
+                        <li class="catalog__paginated-dots-wrapper">
+                            <span
+                                class="catalog__paginated-dots"
+                                aria-hidden="true"
+                                >...</span
+                            >
                         </li>
                         <li>
                             <button class="catalog__pagination-btn">24</button>
                         </li>
                         <li>
-                            <button class="catalog__pagination-btn">
+                            <button
+                                class="catalog__pagination-btn catalog__pagination-btn--arrow"
+                            >
                                 <svg
-                                    class="catalog__pagination-prev-icon"
+                                    class="catalog__pagination-next-icon"
                                     aria-hidden="true"
                                     width="20"
                                     height="20"

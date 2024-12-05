@@ -23,7 +23,6 @@
 @import "./components/modal.css"; */
 
 /* Page-specific styles */
-/* @import "./pages/home.css";
-@import "./pages/catalogue.css";
-@import "./pages/library.css";
+@import "./pages/_catalog.css";
+/* @import "./pages/library.css";
 @import "./pages/auth.css"; */
